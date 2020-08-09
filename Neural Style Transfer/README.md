@@ -37,3 +37,15 @@ Two styles are applied to the image based on the input mask.
 
 <img src='https://s8.hostingkartinok.com/uploads/images/2020/08/e5007cf210260e7dedf8a35cfbd6f696.png' width=1000/></a>
 
+
+# Notes
+
+* Used framework: [PyTorch](https://pytorch.org/)
+
+* To focus only on the style of the output image, *the content image* is always selected as *the input image*. If desired, you can use white noise.
+
+* Used CNN: [VGG-19](https://arxiv.org/pdf/1409.1556.pdf) as simple CNN architecture.
+
+* This project was inspired by one seminar of [Deep Learning School](https://www.dlschool.org/) (spring, 2020)
+
+* All calculations was made using [Colaboratory Google (Colab) ](https://colab.research.google.com/)
